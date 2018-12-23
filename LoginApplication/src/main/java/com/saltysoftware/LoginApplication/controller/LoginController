@@ -3,5 +3,9 @@ package com.java.com.saltysoftware.LoginController.controller;
 @RestController
 public class LoginController{
 
+    @GetMapping("/login")
+    public String getLogin(){
+        return "Login Page";
+    }
 
 }

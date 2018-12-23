@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dbc5379-e6f8-4dbc-92ab-db5b610db0f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LoginController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/repository/LoginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LoginController" beforeDir="false" afterPath="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LoginController" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/repository/LoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/repository/LoginRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,11 @@
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApplication/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -38,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/repository/LoginRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -47,13 +50,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LoginController">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="62" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/service/LoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,9 +84,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LoginController" />
         <option value="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/model/Role.java" />
         <option value="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/repository/LoginRepository.java" />
+        <option value="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LoginController" />
+        <option value="$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/service/LoginService.java" />
       </list>
     </option>
   </component>
@@ -133,7 +157,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="LoginApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMvcSecurityTutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcSecurityTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMvcSecurityTutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcSecurityTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApplication" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMvcSecurityTutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvcSecurityTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545455186178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545499711821" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -185,7 +239,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33940622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -217,21 +270,11 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LoginApplication/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LogiknController">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/LoginApplication.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LoginController">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="62" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -240,10 +283,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApplication/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/controller/LoginController">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LoginApplication/src/main/java/com/saltysoftware/LoginApplication/repository/LoginRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
